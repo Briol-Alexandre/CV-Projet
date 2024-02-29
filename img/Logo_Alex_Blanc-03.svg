@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        letter-spacing: .04em;
+      }
+
+      .cls-4 {
+        fill: #fff;
+        font-family: BasicSans-SemiBold, 'Basic Sans';
+        font-size: 109.13px;
+        font-weight: 600;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke: #fff;
+      }
+
+      .cls-8 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-5, .cls-7 {
+        stroke-width: 32px;
+      }
+
+      .cls-6 {
+        stroke-width: 11px;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-linejoin: round;
+      }
+
+      .cls-9 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <path class="cls-5" d="M560.74,315.04s264.69-19.42,283.61,172.16-281.45,151.37-281.45,151.37V151.34s136.99-32.38,141.16,73.32c4.16,105.7-143.31,90.37-143.31,90.37Z"/>
+  <g>
+    <text class="cls-4" transform="translate(140.44 749.17)"><tspan x="0" y="0" xml:space="preserve">  l</tspan><tspan class="cls-1" x="72.57" y="0">e</tspan><tspan class="cls-10" x="128.01" y="0">x</tspan><tspan x="181.05" y="0">and</tspan><tspan class="cls-8" x="365.38" y="0">r</tspan><tspan x="404.12" y="0">e</tspan><tspan class="cls-3" x="461.52" y="0" xml:space="preserve">   </tspan><tspan x="542.39" y="0">riol</tspan><tspan class="cls-9" x="-47.96" y="82.07">W</tspan><tspan x="48.07" y="82.07">eb D</tspan><tspan class="cls-11" x="265.57" y="82.07">e</tspan><tspan class="cls-12" x="321.34" y="82.07">v</tspan><tspan x="377.11" y="82.07">eloppe</tspan><tspan class="cls-2" x="707.45" y="82.07">r</tspan></text>
+    <path class="cls-6" d="M178.51,746.89l-26.72-66.79-28.13,66.79s17.94-42.59,64.75-44.58"/>
+    <path class="cls-6" d="M639.09,702.03s35.68-2.62,38.24,23.21c2.55,25.83-37.94,20.41-37.94,20.41v-65.69s18.47-4.36,19.03,9.88c.56,14.25-19.32,12.18-19.32,12.18Z"/>
+  </g>
+  <path class="cls-7" d="M561.49,646.54L346.4,150.84,121.83,642.08s143.22-313.29,516.92-327.85"/>
+</svg>

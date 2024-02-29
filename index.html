@@ -70,12 +70,14 @@
                 </svg>
             </a>
         </div>
-        <section>
+        <section itemscope itemtype="https://schema.org/Person">
             <h2>À propos de moi</h2>
-            <span>Alexandre Briol Web Developer</span>
-            <p>Étudiant en Web à la HEPL de Seraing en vue de devenir FullStack Developer. Bienvenue sur mon CV réalisé
-                en
-                HTML, CSS/SCSS, JS/TS</p>
+            <span itemprop="givenName">Alexandre</span>
+            <span itemprop="familyName">Briol</span>
+            <span itemprop="jobTitle">Web Developer</span>
+            <p>Étudiant en Web à la <span itemprop="affiliation">HEPL</span> de <span
+                    itemprop="workLocation">Seraing</span> en vue de devenir FullStack Developer. Bienvenue sur mon CV
+                réalisé en HTML, CSS/SCSS, JS/TS</p>
             <button>
                 <a href="#">Contact</a>
             </button>
@@ -131,7 +133,14 @@
         <section>
             <h2>Expériences Professionelles</h2>
             <article>
-                <img src="" alt="">
+
+                <img src="img/Shell_logo.png"
+                     alt="Logo compagnie Shell"
+                     height="1080"
+                     width="1920"
+                     srcset="img/Shell_logo.png 1920w,
+                                img/Shell_logo_small.png 410w"
+                />
                 <h3>2021-Aujourd'hui Battice Station essence</h3>
                 <p>
                     Gestion de caisse + gestion stock et magasin. Cette expérience m’a permis d’acquérir une
@@ -140,7 +149,13 @@
                 </p>
             </article>
             <article>
-                <img src="" alt="">
+
+                <img src="img/McDonald's_Golden_Arches.png"
+                     alt="Logo Fast Food MacDonalds"
+                     height="1080"
+                     width="1920"
+                     srcset="img/McDonald's_Golden_Arches.png 1920w,
+                            img/McDonald's_Golden_Arches_small.png 410w"/>
                 <h3>2019-2021 Herstal McDonalds</h3>
                 <p>
                     Cuisine + Accueil de sale. J’ai appris à gérer mon stress dans des moments de haute intensité en
@@ -148,8 +163,14 @@
                 </p>
             </article>
             <article>
-                <img src="" alt="">
-                <h3>2014-2015 Liège Service logistique Omnimut.</h3>
+
+                <img src="img/Partenamut_logo.png"
+                     alt="Logo Société Partenamut"
+                     height="1080"
+                     width="1920"
+                     srcset="img/Partenamut_logo.png 1920w,
+                            img/Partenamut_logo_small.png 410w"/>
+                <h3>2014-2015 Liège Service logistique Partenamut.</h3>
                 <p>
                     Gestion stock + organisation. Lors de ce job, j’ai appris à gérer mon emploi du temps afin de
                     pouvoir réaliser une liste de tâche en un temps imparti.
@@ -163,13 +184,24 @@
                 <li>
                     <img src="img/Hannibal.png"
                          alt="Image issue de la série Hannibal représentant le bureau du personnage principal"
-                         height="1080" width="1920"/>
-                    <img src="img/HannibalFin.JPG" alt="Reconstruction 3D du bureau d'Hannibal" height="1080"
-                         width="1920"/>
+                         height="1080" width="1920"
+                         srcset="img/Hannibal.png 1920w,
+                                img/Hannibal_small.png 410w"/>
+                    <img src="img/HannibalFin.JPG"
+                         alt="Reconstruction 3D du bureau d'Hannibal"
+                         height="1080"
+                         width="1920"
+                         srcset="img/HannibalFin.JPG 1920w,
+                                    img/HannibalFin_small.JPG 410w"
+                    />
                 </li>
                 <li>
-                    <img src="img/Isometric.png" alt="Création 3D d'un village médiéval en vue isométrique"
-                         height="1080" width="1920"/>
+                    <img src="img/Isometric.png"
+                         alt="Création 3D d'un village médiéval en vue isométrique"
+                         height="1080"
+                         width="1920"
+                         srcset="img/Isometric.png 1920w,
+                            img/Isometric_small.png 410w"/>
                 </li>
                 <li>
                     <img src="img/RobotPerso.jpeg" alt="G&eacute;ant de fer r&eacute;alis&eacute; en 3D" height="1080"
@@ -185,7 +217,6 @@
         <section>
             <h2>Parcours Scolaire</h2>
             <img id="logo" src="img/Logo_Alex_Blanc.png" height="3049" width="3319" alt="Mon logo en blanc"/>
-            <span>Alexandre Briol</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="79.43" height="79.43" viewBox="0 0 79.43 79.43">
                 <g id="Groupe_8" data-name="Groupe 8" transform="translate(-4395.086 -3824.086)">
                     <line id="Ligne_10" data-name="Ligne 10" x2="76.169" y2="76.169"
