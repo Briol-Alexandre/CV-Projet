@@ -1,0 +1,81 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+
+  h2 {
+    padding: 0;
+    text-align: left;
+  }
+
+  &__title {
+
+    h2 {
+      margin-bottom: 1em;
+    }
+  }
+
+  &__container {
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 130px;
+    width: 70%;
+
+
+    .autorize {
+      grid-row-start: 2;
+    }
+
+    form {
+      grid-row-start: 1;
+      grid-column-start: 2;
+      display: grid;
+      justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+
+      #email, #name-firstname, #country {
+        font-size: 16px;
+        font-family: "TT Lakes Neue Trial", sans-serif;
+        display: inline-block;
+        padding: 26px;
+        width: 85%;
+        border-radius: 7px;
+        border: 3px solid white;
+        background-color: black;
+        color: #585858;
+        align-self: center;
+      }
+
+      #email {
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+
+      #name-firstname {
+        grid-column-start: 1;
+        padding-right: 0;
+      }
+
+      #country {
+        grid-column-start: 2;
+        align-self: center;
+        color: white;
+
+      }
+
+      .autorize {
+        grid-row-start: 3;
+      }
+
+      input {
+        align-self: center;
+      }
+      .submit{
+        width: 100%;
+        grid-row-start: 4;
+      }
+    }
+  }
+}

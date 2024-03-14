@@ -1,0 +1,33 @@
+.portfolio {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2, p, a {
+    align-self: center;
+  }
+
+  h2 {
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    margin-bottom: 1.5em;
+  }
+
+  a {
+    padding: 1em 1.5em;
+    font-size: 1em;
+    font-family: "TT Lakes Neue Trial", serif;
+    border: none;
+    border-radius: 6px;
+    background-color: #A28E62;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+}

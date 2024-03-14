@@ -1,0 +1,41 @@
+.student-job {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/bgimage.png");
+    background-attachment: fixed;
+
+  }
+
+  &__h3 {
+    font-size: 1.1em;
+    text-align: center;
+    width: 900px;
+    margin-top: 15px;
+    align-self: center;
+  }
+
+  &__article-container {
+    align-self: center;
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(3, 33%);
+    column-gap: 16px;
+    padding-top: 6em;
+  }
+
+  &__article {
+    img {
+      width: 410px;
+      height: 230px;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      margin-bottom: 1em;
+    }
+  }
+}
