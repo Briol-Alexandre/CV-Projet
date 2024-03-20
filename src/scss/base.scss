@@ -6,7 +6,7 @@ html {
 
 body {
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "TT Lakes Neue Trial", sans-serif;
   background-image: url(../../img/bgimage.png);
   background-position: center;
@@ -26,4 +26,18 @@ body {
   position: absolute !important;
   width: 1px !important;
   white-space: nowrap !important; /* 3 */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-family: "Monofonto", sans-serif;
+  padding-top: 5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
 }

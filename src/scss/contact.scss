@@ -1,7 +1,7 @@
 .contact {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 6.25rem;
 
   h2 {
     padding: 0;
@@ -19,7 +19,7 @@
     align-self: center;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    column-gap: 130px;
+    column-gap: 12.6336248785228%;
     width: 70%;
 
 
@@ -36,10 +36,10 @@
       grid-template-rows: repeat(4, 1fr);
 
       #email, #name-firstname, #country {
-        font-size: 16px;
+        font-size: 1rem;
         font-family: "TT Lakes Neue Trial", sans-serif;
         display: inline-block;
-        padding: 26px;
+        padding: 1.625rem 0 1.625rem 1.625rem;
         width: 85%;
         border-radius: 7px;
         border: 3px solid white;
@@ -73,8 +73,16 @@
         align-self: center;
       }
       .submit{
-        width: 100%;
+        width: 0.5fr;
         grid-row-start: 4;
+        font-size: 1.25rem;
+        padding: 1em 1.5em;
+        color: white;
+        font-family: "TT Lakes Neue Trial", serif;
+        border: none;
+        border-radius: 6px;
+        background-color: #A28E62;
+        transition: 0.5s;
       }
     }
   }

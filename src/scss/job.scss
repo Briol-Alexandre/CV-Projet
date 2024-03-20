@@ -12,8 +12,8 @@
   &__h3 {
     font-size: 1.1em;
     text-align: center;
-    width: 900px;
-    margin-top: 15px;
+    width: 61.22%;
+    margin-top: 0.9375rem;
     align-self: center;
   }
 
@@ -22,20 +22,31 @@
     display: grid;
     width: 90%;
     grid-template-columns: repeat(3, 33%);
-    column-gap: 16px;
+    column-gap: 1.21%;
     padding-top: 6em;
   }
 
   &__article {
-    img {
-      width: 410px;
-      height: 230px;
+    svg {
       margin-bottom: 1rem;
     }
 
     h3 {
       text-transform: uppercase;
       margin-bottom: 1em;
+    }
+  }
+}
+
+
+@media (max-width: 1000px ) {
+  .student-job{
+    &__article-container{
+      display: flex;
+      flex-direction: column;
+    }
+    &__article{
+      margin-bottom: 2rem;
     }
   }
 }

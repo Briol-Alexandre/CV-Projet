@@ -13,54 +13,55 @@
     </head>
     <body>
         <h1 class="sr-only">Mon CV</h1>
-        <nav id="main-nav">
-            <h2 class="sr-only">Navigation Principale</h2>
-            <ul class="container">
-                <li class="item1">
-                    <a href="#" class="logo">
-                        Alexandre Briol
-                    </a>
-                </li>
-                <li class="item item2">À propos
-                    <ul class="dropdown">
-                        <li>
-                            <a href="#">Expériences professionelles</a>
-                        </li> <!--Mettres les bonnes  encres-->
-                        <li>
-                            <a href="#">Certains projets réalisés</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="item item3">Projets
-                    <ul class="dropdown">
-                        <li>
-                            <a href="#">Listes des projets</a>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="item item4">Formation
-                    <ul class="dropdown">
-                        <li>
-                            <a href="#">Liste des formations</a>
-                        </li>
-                    </ul>
-
-                </li>
-                <li class="item contact-button item5" id="contact"> Contact
-                    <ul class="dropdown">
+        <header>
+            <a href="#" class="logo">
+                Alexandre <br>Briol
+            </a>
+            <nav id="main-nav">
+                <h2 class="sr-only">Navigation Principale</h2>
+                <ul class="container">
+                    <li class="item item2">À propos
+                        <ul class="dropdown">
+                            <li>
+                                <a href="#">Expériences professionelles</a>
+                            </li> <!--Mettres les bonnes  encres-->
+                            <li>
+                                <a href="#">Certains projets réalisés</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="item item3">Projets
+                        <ul class="dropdown">
+                            <li>
+                                <a href="#">Listes des projets</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="item item4">Formation
+                        <ul class="dropdown">
+                            <li>
+                                <a href="#">Liste des formations</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="button__container">
+                <li class="item contact-button" id="contact"> Contact
+                    <ul class="dropdown" id="dropdown-contact">
                         <li>
                             <a href="#contact-form">Accéder au formulaire de contact</a>
                         </li>
                     </ul>
                 </li>
             </ul>
-        </nav>
+        </header>
         <div>
             <a href="#main-nav" id="up-button">
                 <img src="img/bbu.png" alt="Fleche de retour à la navigation principale" height="299" width="340"/>
@@ -71,11 +72,9 @@
             <div class="info__items">
                 <div class="info__content">
                     <div class="info__name">
-                        <div class="myName">
-                            <span itemprop="givenName">Alexandre</span>
-                            <span itemprop="familyName">Briol</span>
-                            <span itemprop="jobTitle">Web Developer</span>
-                        </div>
+                        <span itemprop="givenName">Alexandre</span>
+                        <span itemprop="familyName">Briol</span>
+                        <span itemprop="jobTitle">Web Developer</span>
                     </div>
                     <div class="info__studies">
                         <p>
@@ -100,19 +99,19 @@
                 </div>
             </div>
         </section>
-        <div class="capacity">
-            <p class="capacity__course">HTML</p>
-            <p class="capacity__note">9/10</p>
-            <p class="capacity__course">JavaScript</p>
-            <p class="capacity__note">8/10</p>
-            <p class="capacity__course">CSS</p>
-            <p class="capacity__note">9/10</p>
-            <p class="capacity__course">PHP</p>
-            <p class="capacity__note">8/10</p>
-            <p class="capacity__course">TypeScript</p>
-            <p class="capacity__note">8/10</p>
-            <p class="capacity__course">SQL</p>
-            <p class="capacity__note">8/10</p>
+        <div class="slider-container slider-2">
+            <div class="capacity slider">
+                <p class="capacity__course">HTML</p>
+                <p class="capacity__note">9/10</p>
+                <p class="capacity__course">JavaScript</p>
+                <p class="capacity__note">8/10</p>
+                <p class="capacity__course">CSS</p>
+                <p class="capacity__note">9/10</p>
+                <p class="capacity__course">PHP</p>
+                <p class="capacity__note">8/10</p>
+                <p class="capacity__course">HTML</p>
+                <p class="capacity__note">9/10</p>
+            </div>
         </div>
         <section class="student-job">
             <div class="student-job__container">
@@ -124,7 +123,7 @@
                     <article class="student-job__article">
                         <svg id="Calque_1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             viewBox="0 0 1920 1080"  xml:space="preserve">
+                             viewBox="0 0 1920 1080" xml:space="preserve">
 
                             <rect width="1920" height="1080"/>
                             <g id="Shell_logotype-2">
@@ -167,7 +166,7 @@
                     <article class="student-job__article">
                         <svg id="Calque_1" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                             viewBox="0 0 1920 1080"  xml:space="preserve">
+                             viewBox="0 0 1920 1080" xml:space="preserve">
                             <rect width="1920" height="1080"/>
                             <g>
 	<rect x="271.1" y="434.1" class="st0" width="899.9" height="211.9"/>
@@ -439,7 +438,7 @@
         </section>
         <footer>
             <section>
-                <h2>Résaux</h2>
+                <h2>Réseaux</h2>
                 <div>
                     <p>Alexandre Briol</p>
                     <p>Rejoignez mes réseaux</p>
