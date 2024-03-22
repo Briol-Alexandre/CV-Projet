@@ -13,12 +13,14 @@ ul, ol {
 
 header {
   display: flex;
+  position: sticky;
+  top:0;
+  z-index: 999;
   justify-content: flex-start;
   background-color: black;
 }
 
 #main-nav {
-  padding: 1em;
   align-self: center;
 }
 
@@ -41,7 +43,7 @@ ul li ul.dropdown {
   width: 200%;
   background-color: black;
   position: absolute;
-  top: -11111px;
+  top: -30px;
   z-index: 999;
   display: none;
   transition: 0.2s;
@@ -53,7 +55,7 @@ ul li ul.dropdown {
 
 ul li:hover ul.dropdown {
   display: block;
-  top: 2em;
+  top: 3.7em;
   transition: 0.2s;
 }
 
@@ -79,6 +81,8 @@ ul li:hover ul.dropdown {
 .item {
   text-transform: uppercase;
   font-weight: bold;
+  padding: 1em;
+
   margin-left: 1rem;
 }
 

@@ -34,6 +34,7 @@
       justify-content: center;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(4, 1fr);
+      gap: 10%;
 
       #email, #name-firstname, #country {
         font-size: 1rem;
@@ -67,12 +68,28 @@
 
       .autorize {
         grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: grid;
+        grid-template-columns: 1fr 9fr;
+
+        #autorize-email {
+          grid-column-start: 1;
+          grid-row-start: 1;
+          align-self: start;
+          border: 2px white solid;
+        }
+
+        label {
+          grid-column-start: 2;
+        }
       }
 
       input {
         align-self: center;
       }
-      .submit{
+
+      .submit {
         width: 0.5fr;
         grid-row-start: 4;
         font-size: 1.25rem;
