@@ -1,0 +1,100 @@
+footer {
+  margin-top: 10rem;
+}
+
+.myInfos {
+  background-color: #252525;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  padding: 1rem 10rem;
+  min-height: 330px;
+
+  &__me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #595959 solid 1px;
+
+    a {
+      color: #A3A3A3;
+    }
+
+
+    &__myName {
+      font-family: Monofonto, sans-serif;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__social {
+    &__join {
+      font-family: Monofonto, sans-serif;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 2rem;
+
+      p {
+        color: white;
+      }
+    }
+
+    a {
+      transition: 0.2s;
+      margin: 0.5rem;
+
+      :hover {
+        scale: 1.1;
+        transition: 0.2s;
+      }
+    }
+
+    svg {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  &__hepl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.legalInfo {
+  color: #585858;
+  background-color: black;
+  padding: 2rem 7.5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+  svg {
+    width: 64px;
+    height: 64px;
+    align-self: start;
+  }
+
+  a {
+    color: #585858;
+
+  }
+
+  &__infos {
+    &__ancres {
+      margin-bottom: 2rem;
+
+      a {
+        margin-right: 1rem;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+}

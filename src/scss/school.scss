@@ -1,4 +1,9 @@
 .school {
+  background-image: url(../../img/parcdesmarais.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
   &__logo-container {
     padding-top: 6em;
     display: flex;
